@@ -4,9 +4,18 @@
   
   <!-- Main Content -->
   <main class="container">
-    <div>
-      <h1 class="display-4">Welcome To The <%= title %> Page</h1> 
-    </div>
+    <% switch(page) {
+      case "About": %>
+        <%- include('partials/about_page_content.ejs') %>
+        <% break;
+      case "Contact": %>
+        <%- include('partials/contact_page_content.ejs') %>
+        <% break;
+      default: %>
+        <%- include('partials/home_page_content.ejs') %>
+        <% break;
+    } %>
+
   </main>
   
   <%- include('partials/bottom_nav.ejs') %>  
