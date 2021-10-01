@@ -1,0 +1,18 @@
+.about-pic {
+  width: 296px;
+}
+.about-pic img {
+  max-width: 100%;
+}
+.about-title {
+  color: var(--popblue);
+}
+.contact1 {
+  width: 100%;
+  min-height: 100%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
