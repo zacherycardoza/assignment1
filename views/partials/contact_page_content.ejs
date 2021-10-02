@@ -1,10 +1,14 @@
+<!-- File Name: contact_page_content.ejs | Student Name: Zachery Cardoza | Student Id: 301183433 | Oct 2nd, 2021 -->
 <div class="content">
   <div class="container-content">
-    <div class="content-pic js-tilt" data-tilt>
-      <img src="images/uploadicon.png" alt="">
-    </div>
+    <div class="container col-sm-6">
+      <div class="content-title">How You Can Reach Me</div>
+      <div><p>Phone <span class="contact-link">(289)-892-6133</p></span></div>
+      <div><p>Email <span class="contact-link">Zachary@Cardoza.ca</p></span></div>
+      <div><p>Linkedin <span class="contact-link" style="cursor:pointer" onclick="javascript:location.href='https://www.linkedin.com/in/zachcardoza/'">linkedin.com/in/zachcardoza/</p></span></div>
+      </div>
 
-    <form class="content-form validate-form">
+    <form class="content-form validate-form col-6">
       <div class="wrap-input1 validate-input" data-validate = "Name is required">
         <input class="input1" type="text" name="name" placeholder="Name">
         <span class="shadow-input1"></span>
@@ -16,7 +20,7 @@
       </div>
 
       <div class="wrap-input1 validate-input" data-validate = "Subject is required">
-        <input class="input1" type="text" name="Phone" placeholder="Phone Number">
+        <input class="input1" type="text" name="phone" placeholder="Phone Number">
         <span class="shadow-input1"></span>
       </div>
 
@@ -25,8 +29,8 @@
         <span class="shadow-input1"></span>
       </div>
 
-      <div class="container-content-form-btn">
-        <button class="content-form-btn">
+      <div class="container-content-form-btn contact-btn">
+        <button class="content-form-btn" type="button">
           Contact!
         </button>
       </div>

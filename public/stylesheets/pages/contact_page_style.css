@@ -1,3 +1,4 @@
+/* File Name: contact_page_style.css | Student Name: Zachery Cardoza | Student Id: 301183433 | Oct 2nd, 2021 */
 /*---------------------------------------------*/
 input,
 textarea {
@@ -197,4 +198,8 @@ textarea {
   .container-content {
     padding: 90px 15px 88px 15px;
   }
+}
+.content-title,
+.contact-link {
+  color: var(--popblue);
 }
