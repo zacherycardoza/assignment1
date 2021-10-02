@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon app",
     "start": "node app",
-    "heroku-postbuild": "node app"
+    "heroku-postbuild": "npm start app"
   },
   "dependencies": {
     "bootstrap": "^5.1.1",
