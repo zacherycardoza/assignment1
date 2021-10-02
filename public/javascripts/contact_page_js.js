@@ -5,6 +5,8 @@ var userInfo = {
   phoneNumber: "",
   message: "",
 };
+// function on form button
+// grabs the form inputs and assigns their values to userInfo before saving to local storage and redirecting to the homepage
 (function ($) {
   $(document).ready(function () {
     $(".contact-btn").on("click", function () {
