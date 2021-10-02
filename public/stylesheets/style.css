@@ -282,3 +282,6 @@ textarea {
     padding: 90px 15px 88px 15px;
   }
 }
+.contact-link {
+  color: var(--popblue);
+}
