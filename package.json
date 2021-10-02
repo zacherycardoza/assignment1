@@ -4,8 +4,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app",
-    "start": "serve -s build",
-    "heroku-postbuild": "npm run build"
+    "start": "serve -s app",
+    "heroku-postbuild": "npm run app"
   },
   "dependencies": {
     "bootstrap": "^5.1.1",
